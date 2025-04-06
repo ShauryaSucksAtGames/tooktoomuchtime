@@ -1,0 +1,34 @@
+# Ignore data files
+*.csv
+dataset_aiml_task/
+
+# Ignore OS-specific files
+.DS_Store
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore duplicate model files in root (keep only the ones in src/models)
+/cnn1.py
+/cnn2.py
+/lr.py
+/task0.py
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Local development settings
+.env
+
+# Model output files
+*.png 
